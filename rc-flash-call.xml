@@ -1,3 +1,11 @@
+<!--
+  ...
+  ... This is a Restcomm Markup Language (RCML) Application.
+  ... Learn more about RCML here: 
+  ... https://www.restcomm.com/docs/Restcomm-CSP/1.0/programmable.html#_restcomm_markup_language_rcml_for_programmable_voice
+  ...
+-->
+
 <?xml
  version="1.0"
 ?>

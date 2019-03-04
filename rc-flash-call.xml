@@ -1,0 +1,6 @@
+<?xml
+ version="1.0"
+?>
+<Response>
+    <Say voice="woman" language="en-gb" >Your phone number, has been confirmed.</Say>
+</Response>

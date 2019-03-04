@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+
+  <title>Restcomm Flash Call</title>
+
+  <link rel="shortcut icon" type="image/x-icon" href="https://xpu9xkeqmm25weon2hdkq715-wpengine.netdna-ssl.com/wp-content/uploads/2018/01/restcomm-favicon-1.png">
+
+  <style>
+        body {
+            background: white;
+            overflow: scroll;
+            font-size: 20px;
+            font-style: italic;
+            font-weight: 100;
+            letter-spacing: 2px;
+            text-transform: capitalize;
+        }
+        .black_btn {
+            width: 350px;
+            padding: 20px 0;
+            background: black;
+            color: white;
+            text-align: center;
+            font-size: 18px;
+            font-weight: bold;
+            font-style: italic;
+            letter-spacing: 4px;
+            margin: auto;
+            cursor: pointer;
+            clear: both;
+        }
+        #container {
+            width: 950px;
+            text-align: left;
+            margin: auto;
+        }
+        a {
+            font-weight: bold;
+        }
+        #about {
+            margin: 250px 0 20px 0;
+        }
+    </style>
+</head>
+
+<body>
+
+  <div id="container">
+
+  <div id="about">
+  <h2>RESTCOMM FLASH CALL</h2> VERIFY YOUR PHONE NUMBER WITH RESTCOMM
+  <br>
+  <form class="form-signin" method="POST" 
+			    action="https://<your_account_sid>:<your_account_token>@<your_restcomm_organization>.restcomm.com/restcomm/2012-04-24/Accounts/<your_account_sid>/Calls">
+    <input class="form-control" type="text" required name="To" placeholder="e.g. 1222333444">
+    <input type="hidden" name="From" value="<origin_number>" />
+    <input type="hidden" name="Url" value="http://<path_to_rcml_file>/rc-flash-call.xml" />
+    <input type="hidden" name="Timeout" value="10" />  
+    <label class="checkbox"></label>
+    <button class="btn btn-lg btn-primary btn-block" type="submit">Verify</button> 
+  </form> 
+  
+  </div>
+
+</body>
+
+</html>
